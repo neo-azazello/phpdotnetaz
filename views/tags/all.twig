@@ -1,0 +1,344 @@
+{% extends 'base/index.twig' %}
+
+{% block content %} 
+
+<div id="mainbar-full">
+            <h1 class="fs-headline1 mb24">
+                Tags
+            </h1>
+        <p class="mb24">
+            A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question.
+        </p>
+        <div class="grid mb24">
+            <div class="grid--cell">
+                <input id="tagfilter" class="f-input s-filter-input" autocomplete="off" name="tagfilter" type="text" maxlength="35" placeholder="Filter by tag name" autofocus="">
+            </div>
+
+            
+<div class="grid--cell ml-auto grid tabs-filter s-btn-group tt-capitalize">
+        <a class="youarehere is-selected grid--cell s-btn s-btn__muted s-btn__outlined py8 ws-nowrap" href="/tags?tab=popular" data-nav-xhref="" title="most popular tags" data-value="popular" data-shortcut="">
+            popular</a>
+        <a class="grid--cell s-btn s-btn__muted s-btn__outlined py8 ws-nowrap" href="/tags?tab=name" data-nav-xhref="" title="tags in alphabetical order" data-value="name" data-shortcut="">
+            name</a>
+        <a class="grid--cell s-btn s-btn__muted s-btn__outlined py8 ws-nowrap" href="/tags?tab=new" data-nav-xhref="" title="recently created tags" data-value="new" data-shortcut="">
+            new</a>
+    </div>
+
+        </div>
+
+    <div id="tags_list">
+        
+<div id="tags-browser" class="grid-layout">
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/14.04" class="post-tag" title="show questions tagged '14.04'" rel="tag">14.04</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">21021</span></span>
+                    <div class="excerpt">Fifth LTS (Long Term Support) release of Ubuntu, code-named "Trusty Tahr". Released on 17th April, 2014. Will go End Of Life (EOL) April 2019. Only use this tag if your question is version-specific.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/14.04?sort=newest&amp;days=7" title="22 questions tagged 14.04 in the last 7 days">22 asked this week</a>, <a href="/questions/tagged/14.04?sort=newest&amp;days=30" title="70 questions tagged 14.04 in the last 30 days">70 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/16.04" class="post-tag" title="show questions tagged '16.04'" rel="tag">16.04</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">17419</span></span>
+                    <div class="excerpt">Sixth LTS (Long Term Support) release of Ubuntu, code-named "Xenial Xerus". Released on 21st April, 2016. Will go End Of Life (EOL) April 2021. Only use this tag if your question is version-specific. …</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/16.04?sort=newest&amp;days=1" title="10 questions tagged 16.04 in the last 24 hours">10 asked today</a>, <a href="/questions/tagged/16.04?sort=newest&amp;days=7" title="56 questions tagged 16.04 in the last 7 days">56 this week</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/12.04" class="post-tag" title="show questions tagged '12.04'" rel="tag">12.04</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">16939</span></span>
+                    <div class="excerpt">Fourth LTS (Long Term Support) release of Ubuntu, code-named Precise Pangolin. Released on 26th April, 2012, no longer supported (EOL) since 28th April 2017. Questions about unsupported versions are l…</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/12.04?sort=newest&amp;days=365" title="49 questions tagged 12.04 in the last 365 days">49 asked this year</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/boot" class="post-tag" title="show questions tagged 'boot'" rel="tag">boot</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">16504</span></span>
+                    <div class="excerpt">if you have trouble booting Ubuntu or you have questions about the bootup process.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/boot?sort=newest&amp;days=1" title="8 questions tagged boot in the last 24 hours">8 asked today</a>, <a href="/questions/tagged/boot?sort=newest&amp;days=7" title="72 questions tagged boot in the last 7 days">72 this week</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/command-line" class="post-tag" title="show questions tagged 'command-line'" rel="tag">command-line</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">16043</span></span>
+                    <div class="excerpt">Questions about using the command-line interface (CLI).</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/command-line?sort=newest&amp;days=1" title="10 questions tagged command-line in the last 24 hours">10 asked today</a>, <a href="/questions/tagged/command-line?sort=newest&amp;days=7" title="65 questions tagged command-line in the last 7 days">65 this week</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/networking" class="post-tag" title="show questions tagged 'networking'" rel="tag">networking</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">15843</span></span>
+                    <div class="excerpt">Managing and using network connectivity on a Ubuntu system</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/networking?sort=newest&amp;days=1" title="8 questions tagged networking in the last 24 hours">8 asked today</a>, <a href="/questions/tagged/networking?sort=newest&amp;days=7" title="61 questions tagged networking in the last 7 days">61 this week</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/dual-boot" class="post-tag" title="show questions tagged 'dual-boot'" rel="tag">dual-boot</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">13003</span></span>
+                    <div class="excerpt">For questions regarding the installation of two or more operating systems on a single computer.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/dual-boot?sort=newest&amp;days=1" title="8 questions tagged dual-boot in the last 24 hours">8 asked today</a>, <a href="/questions/tagged/dual-boot?sort=newest&amp;days=7" title="50 questions tagged dual-boot in the last 7 days">50 this week</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/drivers" class="post-tag" title="show questions tagged 'drivers'" rel="tag">drivers</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">12376</span></span>
+                    <div class="excerpt">For questions related to modules, the ones that control and orchestrate how the kernel should communicate with the hardware</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/drivers?sort=newest&amp;days=1" title="8 questions tagged drivers in the last 24 hours">8 asked today</a>, <a href="/questions/tagged/drivers?sort=newest&amp;days=7" title="56 questions tagged drivers in the last 7 days">56 this week</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/apt" class="post-tag" title="show questions tagged 'apt'" rel="tag">apt</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">11522</span></span>
+                    <div class="excerpt">Advanced Packaging Tool, the package manager for Debian-based distributions. It is also the most used tool for installing packages in Ubuntu. Questions about using any of the apt tools should use this…</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/apt?sort=newest&amp;days=1" title="7 questions tagged apt in the last 24 hours">7 asked today</a>, <a href="/questions/tagged/apt?sort=newest&amp;days=7" title="51 questions tagged apt in the last 7 days">51 this week</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/server" class="post-tag" title="show questions tagged 'server'" rel="tag">server</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">11336</span></span>
+                    <div class="excerpt">Questions related to Ubuntu Server, and server-related packages.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/server?sort=newest&amp;days=1" title="9 questions tagged server in the last 24 hours">9 asked today</a>, <a href="/questions/tagged/server?sort=newest&amp;days=7" title="56 questions tagged server in the last 7 days">56 this week</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/wireless" class="post-tag" title="show questions tagged 'wireless'" rel="tag">wireless</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">10530</span></span>
+                    <div class="excerpt">Questions about using Wireless connections in Ubuntu. This tag is not limited to Wifi only.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/wireless?sort=newest&amp;days=7" title="19 questions tagged wireless in the last 7 days">19 asked this week</a>, <a href="/questions/tagged/wireless?sort=newest&amp;days=30" title="104 questions tagged wireless in the last 30 days">104 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/unity" class="post-tag" title="show questions tagged 'unity'" rel="tag">unity</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">9768</span></span>
+                    <div class="excerpt">For questions regarding the Unity desktop environment, including configuring and using Unity. Unity has been the default Ubuntu desktop environment from Ubuntu 11.04 to Ubuntu 17.04.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/unity?sort=newest&amp;days=7" title="8 questions tagged unity in the last 7 days">8 asked this week</a>, <a href="/questions/tagged/unity?sort=newest&amp;days=30" title="34 questions tagged unity in the last 30 days">34 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/grub2" class="post-tag" title="show questions tagged 'grub2'" rel="tag">grub2</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">9562</span></span>
+                    <div class="excerpt">the next generation of the GRand Unified Bootloader (GRUB). Ubuntu has used GRUB 2 as the boot loader since 9.10 (Karmic Koala). Commonly referred to as simply "GRUB".</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/grub2?sort=newest&amp;days=7" title="32 questions tagged grub2 in the last 7 days">32 asked this week</a>, <a href="/questions/tagged/grub2?sort=newest&amp;days=30" title="135 questions tagged grub2 in the last 30 days">135 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/partitioning" class="post-tag" title="show questions tagged 'partitioning'" rel="tag">partitioning</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">9420</span></span>
+                    <div class="excerpt">the act of dividing a hard disk drive into multiple logical storage units referred to as 'partitions'</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/partitioning?sort=newest&amp;days=1" title="9 questions tagged partitioning in the last 24 hours">9 asked today</a>, <a href="/questions/tagged/partitioning?sort=newest&amp;days=7" title="32 questions tagged partitioning in the last 7 days">32 this week</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/nvidia" class="post-tag" title="show questions tagged 'nvidia'" rel="tag">nvidia</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">8174</span></span>
+                    <div class="excerpt">Questions related to the NVIDIA graphics and motherboard chipsets and the related drivers.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/nvidia?sort=newest&amp;days=1" title="5 questions tagged nvidia in the last 24 hours">5 asked today</a>, <a href="/questions/tagged/nvidia?sort=newest&amp;days=7" title="35 questions tagged nvidia in the last 7 days">35 this week</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/gnome" class="post-tag" title="show questions tagged 'gnome'" rel="tag">gnome</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">7549</span></span>
+                    <div class="excerpt">GNOME (GNU Network Object Model Environment) is a collection of GTK-based software that provides the desktop environment GNOME Shell. This is a very general tag that should only be used for questions …</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/gnome?sort=newest&amp;days=7" title="24 questions tagged gnome in the last 7 days">24 asked this week</a>, <a href="/questions/tagged/gnome?sort=newest&amp;days=30" title="105 questions tagged gnome in the last 30 days">105 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/bash" class="post-tag" title="show questions tagged 'bash'" rel="tag">bash</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">7229</span></span>
+                    <div class="excerpt">the shell used in Ubuntu's command-line interface by default.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/bash?sort=newest&amp;days=7" title="22 questions tagged bash in the last 7 days">22 asked this week</a>, <a href="/questions/tagged/bash?sort=newest&amp;days=30" title="92 questions tagged bash in the last 30 days">92 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/18.04" class="post-tag" title="show questions tagged '18.04'" rel="tag">18.04</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">7138</span></span>
+                    <div class="excerpt">Seventh LTS (Long Term Support) release of Ubuntu, code-named "Bionic Beaver". Released on 26th April, 2018. Will go End Of Life (EOL) April 2028. Only use this tag for version-specific questions.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/18.04?sort=newest&amp;days=1" title="26 questions tagged 18.04 in the last 24 hours">26 asked today</a>, <a href="/questions/tagged/18.04?sort=newest&amp;days=7" title="178 questions tagged 18.04 in the last 7 days">178 this week</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/system-installation" class="post-tag" title="show questions tagged 'system-installation'" rel="tag">system-installation</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">7118</span></span>
+                    <div class="excerpt">Questions about installing Ubuntu in any supported architecture. Post-installation questions should not be under this tag.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/system-installation?sort=newest&amp;days=7" title="23 questions tagged system-installation in the last 7 days">23 asked this week</a>, <a href="/questions/tagged/system-installation?sort=newest&amp;days=30" title="100 questions tagged system-installation in the last 30 days">100 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/package-management" class="post-tag" title="show questions tagged 'package-management'" rel="tag">package-management</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">7068</span></span>
+                    <div class="excerpt">Questions about the management of software packages, in particular the APT and dpkg systems.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/package-management?sort=newest&amp;days=7" title="27 questions tagged package-management in the last 7 days">27 asked this week</a>, <a href="/questions/tagged/package-management?sort=newest&amp;days=30" title="127 questions tagged package-management in the last 30 days">127 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/installation" class="post-tag" title="show questions tagged 'installation'" rel="tag">installation</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">6957</span></span>
+                    <div class="excerpt">**DO NOT USE THIS TAG**. Use either [tag:system-installation] (for system installs) or [tag:software-installation] (for installing software on a running system). Questions about installing Ubuntu, or …</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/software-installation" class="post-tag" title="show questions tagged 'software-installation'" rel="tag">software-installation</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">6807</span></span>
+                    <div class="excerpt">Installing software on a running system, either as binaries or from source.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/software-installation?sort=newest&amp;days=7" title="26 questions tagged software-installation in the last 7 days">26 asked this week</a>, <a href="/questions/tagged/software-installation?sort=newest&amp;days=30" title="100 questions tagged software-installation in the last 30 days">100 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/upgrade" class="post-tag" title="show questions tagged 'upgrade'" rel="tag">upgrade</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">6739</span></span>
+                    <div class="excerpt">Questions about upgrading packages, systems or hardware.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/upgrade?sort=newest&amp;days=7" title="19 questions tagged upgrade in the last 7 days">19 asked this week</a>, <a href="/questions/tagged/upgrade?sort=newest&amp;days=30" title="80 questions tagged upgrade in the last 30 days">80 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/usb" class="post-tag" title="show questions tagged 'usb'" rel="tag">usb</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">6525</span></span>
+                    <div class="excerpt">an acronym for Universal Serial Bus. The current USB standard is USB 3.0, which supports transfer speeds of up to 625 MB/s. USB devices are plug-and-play.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/usb?sort=newest&amp;days=7" title="16 questions tagged usb in the last 7 days">16 asked this week</a>, <a href="/questions/tagged/usb?sort=newest&amp;days=30" title="74 questions tagged usb in the last 30 days">74 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/sound" class="post-tag" title="show questions tagged 'sound'" rel="tag">sound</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">5983</span></span>
+                    <div class="excerpt">Questions about sound issues with Ubuntu spanning from sound cards, microphones and speakers/headset to the transfer of audio signals via audio port, bluetooth and HDMI.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/sound?sort=newest&amp;days=7" title="21 questions tagged sound in the last 7 days">21 asked this week</a>, <a href="/questions/tagged/sound?sort=newest&amp;days=30" title="93 questions tagged sound in the last 30 days">93 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/kernel" class="post-tag" title="show questions tagged 'kernel'" rel="tag">kernel</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">5434</span></span>
+                    <div class="excerpt">Questions concerning the Linux kernel in Ubuntu. Issues may including upgrading and installing kernels, compiling, patches, and kernel modules.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/kernel?sort=newest&amp;days=7" title="18 questions tagged kernel in the last 7 days">18 asked this week</a>, <a href="/questions/tagged/kernel?sort=newest&amp;days=30" title="82 questions tagged kernel in the last 30 days">82 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/permissions" class="post-tag" title="show questions tagged 'permissions'" rel="tag">permissions</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">5226</span></span>
+                    <div class="excerpt">Short for "file system permissions" - access control based on user, group, or global access. </div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/permissions?sort=newest&amp;days=7" title="13 questions tagged permissions in the last 7 days">13 asked this week</a>, <a href="/questions/tagged/permissions?sort=newest&amp;days=30" title="58 questions tagged permissions in the last 30 days">58 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/mount" class="post-tag" title="show questions tagged 'mount'" rel="tag">mount</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">5017</span></span>
+                    <div class="excerpt">Questions about mounting filesystems, such as those on internal drives or on CDs, DVDs, external hard drives or USB flash drives, or about using the `mount` command.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/mount?sort=newest&amp;days=7" title="21 questions tagged mount in the last 7 days">21 asked this week</a>, <a href="/questions/tagged/mount?sort=newest&amp;days=30" title="72 questions tagged mount in the last 30 days">72 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/11.10" class="post-tag" title="show questions tagged '11.10'" rel="tag">11.10</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">5016</span></span>
+                    <div class="excerpt">Codenamed "Oneiric Ocelot", this version was released on Oct 13, 2011 and is no longer supported since May 9, 2013. Questions about unsupported versions are likely to be closed as off-topic.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/11.10?sort=newest&amp;days=365" title="2 questions tagged 11.10 in the last 365 days">2 asked this year</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/updates" class="post-tag" title="show questions tagged 'updates'" rel="tag">updates</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">4893</span></span>
+                    <div class="excerpt">a very general tag. If you have a tag that's more specific (e.g. the package name that your question is about) please use that one. </div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/updates?sort=newest&amp;days=7" title="17 questions tagged updates in the last 7 days">17 asked this week</a>, <a href="/questions/tagged/updates?sort=newest&amp;days=30" title="59 questions tagged updates in the last 30 days">59 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/scripts" class="post-tag" title="show questions tagged 'scripts'" rel="tag">scripts</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">4732</span></span>
+                    <div class="excerpt">a series of instructions written in a "plain text" file. The script interpreter (for example, Bash or another shell, Python, Perl, Ruby, etc.) reads the file and carries out the instructio…</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/scripts?sort=newest&amp;days=7" title="19 questions tagged scripts in the last 7 days">19 asked this week</a>, <a href="/questions/tagged/scripts?sort=newest&amp;days=30" title="67 questions tagged scripts in the last 30 days">67 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/graphics" class="post-tag" title="show questions tagged 'graphics'" rel="tag">graphics</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">4537</span></span>
+                    <div class="excerpt">Questions related to graphics, in particular getting graphics cards to work. Please tag your exact graphics card version as well if you know what it is.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/graphics?sort=newest&amp;days=7" title="17 questions tagged graphics in the last 7 days">17 asked this week</a>, <a href="/questions/tagged/graphics?sort=newest&amp;days=30" title="69 questions tagged graphics in the last 30 days">69 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/virtualbox" class="post-tag" title="show questions tagged 'virtualbox'" rel="tag">virtualbox</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">4306</span></span>
+                    <div class="excerpt">a platform-independent open-source virtualization software available for Linux, OS X, Solaris and Windows hosts. Guest additions need to be installed to automatically adjust the guest sc…</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/virtualbox?sort=newest&amp;days=7" title="17 questions tagged virtualbox in the last 7 days">17 asked this week</a>, <a href="/questions/tagged/virtualbox?sort=newest&amp;days=30" title="60 questions tagged virtualbox in the last 30 days">60 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/ssh" class="post-tag" title="show questions tagged 'ssh'" rel="tag">ssh</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">4228</span></span>
+                    <div class="excerpt">a method for securely connecting to a remote computer.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/ssh?sort=newest&amp;days=7" title="16 questions tagged ssh in the last 7 days">16 asked this week</a>, <a href="/questions/tagged/ssh?sort=newest&amp;days=30" title="61 questions tagged ssh in the last 30 days">61 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/keyboard" class="post-tag" title="show questions tagged 'keyboard'" rel="tag">keyboard</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">4170</span></span>
+                    <div class="excerpt">Questions about keyboards, both touch and otherwise. However, please add the "touchscreen" tag for touchscreen keyboard questions.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/keyboard?sort=newest&amp;days=7" title="12 questions tagged keyboard in the last 7 days">12 asked this week</a>, <a href="/questions/tagged/keyboard?sort=newest&amp;days=30" title="71 questions tagged keyboard in the last 30 days">71 this month</a></div>
+                </div>
+            </div>
+            <div class="grid-layout--cell tag-cell">
+                <a href="/questions/tagged/xubuntu" class="post-tag" title="show questions tagged 'xubuntu'" rel="tag">xubuntu</a><span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">4150</span></span>
+                    <div class="excerpt">a community developed, Ubuntu-based (Ubuntu with XFCE desktop environment) GNU/Linux operating system.</div>
+                <div class="grid jc-space-between">
+                    <div class="grid--cell stats-row"><a href="/questions/tagged/xubuntu?sort=newest&amp;days=7" title="13 questions tagged xubuntu in the last 7 days">13 asked this week</a>, <a href="/questions/tagged/xubuntu?sort=newest&amp;days=30" title="59 questions tagged xubuntu in the last 30 days">59 this month</a></div>
+                </div>
+            </div>
+
+</div>
+
+<div class="pager fr">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="/tags?page=2&amp;tab=popular" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="/tags?page=3&amp;tab=popular" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="/tags?page=4&amp;tab=popular" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="/tags?page=5&amp;tab=popular" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="/tags?page=92&amp;tab=popular" title="go to page 92"> <span class="page-numbers">92</span> </a> 
+        <a href="/tags?page=2&amp;tab=popular" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+
+
+        <div id="tags-legend">
+
+                        <span>
+                <a class="tag-synonym-link" href="/tags/synonyms" title="show all tag synonyms">tag synonyms</a>
+            </span>
+        </div>
+    </div>
+
+    <script>
+        StackExchange.ready(function() {
+            $("#tagfilter").typeWatch({ highlight:true, wait:500, captureLength: -1, callback: finished });
+        });
+
+        var request = null;
+        function finished(txt) {
+            if (request) { request.abort(); }
+            request = $.ajax({
+                type: "POST",
+                url: "/filter/tags-for-index",
+                data: { filter: txt, tab: 'Popular' },
+                dataType: "html",
+                success: function (result) {
+                    var domelement = $(result);
+                    $("#tags_list > *:not(#tags-legend)").remove();
+                    $("#tags_list").prepend(domelement);
+
+                    if (txt == "") {
+                        $(".pager").show();
+                    } else
+                    {
+                        $(".pager").hide();
+                    }
+
+                }
+            });
+        }
+    </script>
+</div>
+
+
+{% endblock %}
